@@ -18,7 +18,6 @@ Computer Science and Engineering at MIT, class of 2028. I build production AI sy
 
 **[UROP Search Engine](#)** — A search tool for MIT research listings, built with AppDev@MIT and used by about 500 students. Sub-second filtering over the listings, fed by a daily cron job that scrapes MIT's ELx API and deduplicates into MongoDB. React, TypeScript, Express.
 
-**[uv](https://github.com/astral-sh/uv/issues/6264)** — A fix to the docs site of Astral's Python package manager, reserving image dimensions to stop the page from shifting as content loads.
 
 ## Tools I reach for
 
