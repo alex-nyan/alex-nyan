@@ -1,7 +1,7 @@
 <a href="https://nyanlh.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-    <img src="assets/header-light.svg" width="100%" alt="Nyan Lin Htet, Software Engineer @ MIT, Cambridge, MA" />
+    <img src="assets/header-light.svg" width="100%" alt="Nyan Lin Htet, Student @ MIT, Cambridge, MA" />
   </picture>
 </a>
 
