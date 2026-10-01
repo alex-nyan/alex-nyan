@@ -15,11 +15,14 @@ Computer Science and Engineering at MIT, class of 2028. I'm interested in low-la
 
 ## `01` Working on now
 
-**AutoAce.** AI voice agents that take calls for car dealerships. I wrote the warm-transfer telephony flow (LiveKit, Telnyx) that hands a caller to a human and lets the agent listen back in if the line drops. I also built the document-retrieval layer on Hono, Supabase, and pgvector, and a Google Places fast path that cut location-query latency from roughly 4 seconds to under one second by skipping an LLM round-trip.
-
 **MIT CSAIL.** I deployed Compass Search, a retrieval-augmented generation system on MIT's in-house Parley model that answers natural-language questions over course notes and syllabi for 300+ students. I'm now building a voice-agent moderator that listens to live student group discussions and manages turn-taking in real time.
 
-## `02` Projects
+## `02` Past work
+
+**AutoAce (Y Combinator F25)** · Software Engineering Intern · Jun–Aug 2026<br />
+AI voice agents that take calls for car dealerships. I wrote the warm-transfer telephony flow (LiveKit, Telnyx) that hands a caller to a human and lets the agent listen back in if the line drops. I also built the document-retrieval layer on Hono, Supabase, and pgvector, and a Google Places fast path that cut location-query latency from roughly 4 seconds to under one second by skipping an LLM round-trip.
+
+## `03` Projects
 
 **Low-Latency Feed Handler & Order Book**<br />
 A NASDAQ ITCH 5.0 binary protocol parser and in-memory order book in C++20 with a zero-allocation hot path. A flat price-level array plus a hash map give O(1) add, cancel, and execute. I traced tail latency to cache misses and branch mispredicts with Linux perf and measured per-message p50/p99/p99.9 on a calibrated nanosecond timing harness.<br />
@@ -37,7 +40,7 @@ A multi-object tracker for broadcast soccer, co-authored with a labmate. I desig
 A search tool for MIT research listings, built with AppDev@MIT and used by about 500 students. Sub-second filtering over the listings, fed by a daily cron job that scrapes MIT's ELx API and deduplicates into MongoDB.<br />
 `React` `TypeScript` `Express` `MongoDB`
 
-## `03` Tools I reach for
+## `04` Tools I reach for
 
 **Languages** &nbsp; `C++` `Python` `TypeScript` `C` `Java` `SQL`<br />
 **Frameworks** &nbsp; `PyTorch` `LiveKit` `React` `Next.js` `Node.js` `Hono` `NumPy` `OpenCV`<br />
