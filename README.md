@@ -15,7 +15,7 @@ Computer Science and Engineering at MIT, class of 2028. I'm interested in low-la
 
 ## `01` Working on now
 
-**BusyBeaver.** The course website for 6.1210 (MIT's Introduction to Algorithms). Students submit problem-set work and get LLM feedback graded against human-reviewed rubrics, and there's an office-hours tutor mode. A separate eval pipeline with an LLM judge runs against the real production grading code, so prompt changes get measured before students see them. Next.js, Postgres, MIT's Parley model.
+**[BusyBeaver](https://busybeaver.aieducation.csail.mit.edu/).** The course website for 6.1210 (MIT's Introduction to Algorithms). Students submit problem-set work and get LLM feedback graded against human-reviewed rubrics, and there's an office-hours tutor mode. A separate eval pipeline with an LLM judge runs against the real production grading code, so prompt changes get measured before students see them. Next.js, Postgres, MIT's Parley model.
 
 **Algorithmic trading bot.** An automated trading system, in progress.
 
@@ -30,7 +30,7 @@ AI voice agents that take calls for car dealerships. I wrote the warm-transfer t
 
 ## `03` Projects
 
-**Low-Latency Feed Handler & Order Book**<br />
+**[Low-Latency Feed Handler & Order Book](https://github.com/alex-nyan/Trading-book)**<br />
 A NASDAQ ITCH 5.0 binary protocol parser and in-memory order book in C++20 with a zero-allocation hot path. A flat price-level array plus a hash map give O(1) add, cancel, and execute. I traced tail latency to cache misses and branch mispredicts with Linux perf and measured per-message p50/p99/p99.9 on a calibrated nanosecond timing harness.<br />
 `C++20` `Linux` `perf` `HdrHistogram`
 
@@ -42,7 +42,7 @@ An exam-prep platform for Myanmar's Grade 12 national curriculum. It generates b
 A multi-object tracker for broadcast soccer, co-authored with a labmate. I designed a 12-dimensional constant-acceleration Kalman filter for players who accelerate and cut sharply. On SoccerNet it cut acceleration-driven ID-switch errors by 47% (14,054 down to 7,479), measured through a four-way ablation across 87 video sequences.<br />
 `Python` `OpenCV` `Kalman Filter` `DeepSORT`
 
-**[UROP Search Engine](https://miturop.org)**<br />
+**[UROP Search Engine](https://miturop.org)** · [code](https://github.com/appdev-at-mit/urop-search-engine)<br />
 A search tool for MIT research listings, built with AppDev@MIT and used by about 500 students. Sub-second filtering over the listings, fed by a daily cron job that scrapes MIT's ELx API and deduplicates into MongoDB.<br />
 `React` `TypeScript` `Express` `MongoDB`
 
