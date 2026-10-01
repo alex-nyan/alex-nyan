@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Nyan Lin Htet, Software Engineer at MIT">
+  <defs>
+    <radialGradient id="g1" cx="18%" cy="12%" r="55%"><stop offset="0" stop-color="#C5A463" stop-opacity="0.14"/><stop offset="1" stop-color="#C5A463" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="82%" cy="88%" r="50%"><stop offset="0" stop-color="#C5A463" stop-opacity="0.06"/><stop offset="1" stop-color="#C5A463" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+    .in { animation: up .8s cubic-bezier(.22,1,.36,1) backwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .3s; } .d3 { animation-delay: .5s; } .d4 { animation-delay: .7s; }
+    @keyframes up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .caret { animation: blink 1s steps(2) infinite; }
+    @keyframes blink { 0% { opacity: 1; } 100% { opacity: 0; } }
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: 58px 102px; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="14" fill="#ffffff" stroke="#e8e8e6"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="14" fill="url(#g1)"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="14" fill="url(#g2)"/>
+  <g class="in d1">
+    <g transform="translate(48 34)" fill="#0a0a0a"><circle cx="5" cy="5" r="2.4"/><circle cx="12" cy="5" r="2.4"/><circle cx="19" cy="5" r="2.4"/><circle cx="5" cy="12" r="2.4"/><circle cx="12" cy="12" r="2.4"/><circle cx="19" cy="12" r="2.4"/><circle cx="5" cy="19" r="2.4"/><circle cx="12" cy="19" r="2.4"/><circle cx="19" cy="19" r="2.4"/></g>
+    <text x="82" y="52" font-size="16" font-weight="600" fill="#0a0a0a" letter-spacing="-0.3">nyan.dev</text>
+    <rect class="caret" x="164" y="38" width="8" height="17" fill="#C5A463"/>
+  </g>
+  <g class="in d2">
+    <circle class="pulse" cx="58" cy="102" r="4" fill="#C5A463"/>
+    <text x="70" y="107" font-size="13" fill="#525252">Open to new opportunities</text>
+  </g>
+  <text class="in d3" x="48" y="160" font-size="44" font-weight="700" fill="#0a0a0a" letter-spacing="-1.5">Nyan Lin Htet</text>
+  <text class="in d4" x="48" y="200" font-size="16" fill="#525252">Software Engineer <tspan fill="#C5A463">@</tspan> MIT <tspan fill="#a3a3a3">·</tspan> Cambridge, MA</text>
+</svg>
