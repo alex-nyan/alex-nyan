@@ -15,6 +15,12 @@ Computer Science and Engineering at MIT, class of 2028. I'm interested in low-la
 
 ## `01` Working on now
 
+**BusyBeaver.** The course website for 6.1210 (MIT's Introduction to Algorithms). Students submit problem-set work and get LLM feedback graded against human-reviewed rubrics, and there's an office-hours tutor mode. A separate eval pipeline with an LLM judge runs against the real production grading code, so prompt changes get measured before students see them. Next.js, Postgres, MIT's Parley model.
+
+**Algorithmic trading bot.** An automated trading system, in progress.
+
+**Fog of War challenge.** Fog of War is the chess variant where you only see the squares your own pieces can move to or attack. The hard part is choosing moves on a board you can't fully see.
+
 **MIT CSAIL.** I deployed Compass Search, a retrieval-augmented generation system on MIT's in-house Parley model that answers natural-language questions over course notes and syllabi for 300+ students. I'm now building a voice-agent moderator that listens to live student group discussions and manages turn-taking in real time.
 
 ## `02` Past work
